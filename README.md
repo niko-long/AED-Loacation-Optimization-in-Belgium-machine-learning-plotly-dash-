@@ -60,25 +60,6 @@ At this page, we show the mortality rate of three different cities at different 
 In this page, we show the trend of mortality rate of chosen city in a chosen year. The user can use the drop down to choose interested years and cities to see the mortality rate trend as shown below.
 ![Mortality Rate Analysis by Different Years and Cities](Figures/page3.png)
 
-# Deployment
-To access our app from public link, we deploy our app in Heroku. Since we have four pages in total, we need to deploy the three sub-pages and then update their URL in the main page so that the four pages can interactively switch to each others.
-![Heroku Deployment](Figures/heroku.jpg)
-
-Users can achieve our app via this link [https://mdamainpage-26dd5ba1b110.herokuapp.com](https://mdamainpage-26dd5ba1b110.herokuapp.com) or via the QR code below:
-![Web APP QR Code](Figures/qr.jpg)
-
-# Github Version Control
-In our project, we use Github for version control and remote repository. Branch are used to allow different group member working on different part of app development separately. Requirement.txt and readme file are provided for user to successfully download and use our web app.
-The github link is provide: [MDA Project](https://github.com/niko-long/MDA_Project2024_AED_Optimization) (https://github.com/niko-long/MDA_Project2024_AED_Optimization.git)
-![Github](Figures/github.jpg)
-
-# Further Discussion and Limitations
-In our project,
-
-
-
-# ————————————————————————
-
 
 
 
