@@ -1,0 +1,400 @@
+MDA_Project2024_AED_Optimization/
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── .DS_Store
+│   ├── .gitignore
+│   ├── data
+│   ├── preprocess
+│   ├── model
+│   ├── pages
+│   ├── deploy
+│   ├── __pycache__
+│   ├── .git
+│   ├── data/
+│   │   ├── mug_locations.parquet.gzip
+│   │   ├── interventions3.parquet
+│   │   ├── interventions_bxl2.parquet.gzip
+│   │   ├── .DS_Store
+│   │   ├── pit_locations.parquet.gzip
+│   │   ├── interventions2.parquet
+│   │   ├── intervention_all.xlsx
+│   │   ├── interventions_bxl.parquet.gzip
+│   │   ├── citycombined_intervention_data.xlsx
+│   │   ├── interventions1.parquet
+│   │   ├── 3_city_case_death.xlsx
+│   │   ├── cad9.parquet.gzip
+│   │   ├── aed_locations.parquet.gzip
+│   │   ├── patients_combined.xlsx
+│   │   ├── AED_locations_ThreeCity.xlsx
+│   │   ├── ambulance_locations.parquet.gzip
+│   │   ├── patients.xlsx
+│   │   ├── AED_locations.xlsx
+│   │   ├── hospitals.xlsx
+│   ├── preprocess/
+│   │   ├── preprocessing.ipynb
+│   ├── model/
+│   │   ├── aed_survival_pipeline.pkl
+│   │   ├── model.py
+│   ├── pages/
+│   │   ├── app7.py
+│   │   ├── aed_location_existed.py
+│   │   ├── page1.py
+│   │   ├── layout.py
+│   │   ├── update_survival_probabilities.py
+│   │   ├── page2.py
+│   │   ├── main.py
+│   │   ├── pagesputthere.txt
+│   │   ├── __pycache__
+│   │   ├── assets
+│   │   ├── __pycache__/
+│   │   │   ├── layout.cpython-311.pyc
+│   │   │   ├── update_survival_probabilities.cpython-311.pyc
+│   │   │   ├── aed_location_existed.cpython-311.pyc
+│   │   ├── assets/
+│   │   │   ├── hospital.png
+│   │   │   ├── aed_old.png
+│   │   │   ├── slider.css
+│   │   │   ├── heroku_app_qr.png
+│   │   │   ├── map.png
+│   │   │   ├── red_person.png
+│   │   │   ├── green_person.png
+│   │   │   ├── logo.png
+│   │   │   ├── page1.png
+│   │   │   ├── aed_new.png
+│   │   │   ├── aed_new.webp
+│   │   │   ├── page2.png
+│   ├── deploy/
+│   │   ├── directory_structure.txt
+│   │   ├── structure.py
+│   │   ├── QR_code.py
+│   ├── __pycache__/
+│   │   ├── layout.cpython-311.pyc
+│   │   ├── update_survival_probabilities.cpython-310.pyc
+│   │   ├── update_survival_probabilities.cpython-311.pyc
+│   │   ├── aed_location_existed.cpython-310.pyc
+│   │   ├── aed_location_existed.cpython-311.pyc
+│   ├── .git/
+│   │   ├── ORIG_HEAD
+│   │   ├── config
+│   │   ├── HEAD
+│   │   ├── description
+│   │   ├── index
+│   │   ├── packed-refs
+│   │   ├── COMMIT_EDITMSG
+│   │   ├── FETCH_HEAD
+│   │   ├── objects
+│   │   ├── info
+│   │   ├── logs
+│   │   ├── hooks
+│   │   ├── refs
+│   │   ├── branches
+│   │   ├── objects/
+│   │   │   ├── 0d
+│   │   │   ├── 68
+│   │   │   ├── 9b
+│   │   │   ├── 9e
+│   │   │   ├── 6a
+│   │   │   ├── 3c
+│   │   │   ├── 51
+│   │   │   ├── 0e
+│   │   │   ├── 9d
+│   │   │   ├── a4
+│   │   │   ├── ac
+│   │   │   ├── b3
+│   │   │   ├── df
+│   │   │   ├── a5
+│   │   │   ├── bc
+│   │   │   ├── d8
+│   │   │   ├── f4
+│   │   │   ├── ee
+│   │   │   ├── fc
+│   │   │   ├── f5
+│   │   │   ├── e3
+│   │   │   ├── e4
+│   │   │   ├── fe
+│   │   │   ├── c8
+│   │   │   ├── c1
+│   │   │   ├── 4e
+│   │   │   ├── 20
+│   │   │   ├── pack
+│   │   │   ├── 29
+│   │   │   ├── 7c
+│   │   │   ├── 42
+│   │   │   ├── 89
+│   │   │   ├── 1f
+│   │   │   ├── 74
+│   │   │   ├── 28
+│   │   │   ├── 7b
+│   │   │   ├── 8f
+│   │   │   ├── 4d
+│   │   │   ├── 75
+│   │   │   ├── 81
+│   │   │   ├── 72
+│   │   │   ├── 44
+│   │   │   ├── 88
+│   │   │   ├── 07
+│   │   │   ├── 38
+│   │   │   ├── 9a
+│   │   │   ├── 09
+│   │   │   ├── 31
+│   │   │   ├── info
+│   │   │   ├── 91
+│   │   │   ├── 54
+│   │   │   ├── 53
+│   │   │   ├── 5e
+│   │   │   ├── 37
+│   │   │   ├── 63
+│   │   │   ├── 64
+│   │   │   ├── bf
+│   │   │   ├── b1
+│   │   │   ├── a9
+│   │   │   ├── d5
+│   │   │   ├── a8
+│   │   │   ├── b0
+│   │   │   ├── c3
+│   │   │   ├── e1
+│   │   │   ├── cd
+│   │   │   ├── f0
+│   │   │   ├── e8
+│   │   │   ├── fa
+│   │   │   ├── ff
+│   │   │   ├── e9
+│   │   │   ├── ce
+│   │   │   ├── 41
+│   │   │   ├── 83
+│   │   │   ├── 1b
+│   │   │   ├── 48
+│   │   │   ├── 4f
+│   │   │   ├── 12
+│   │   │   ├── 85
+│   │   │   ├── 1d
+│   │   │   ├── 82
+│   │   │   ├── 40
+│   │   │   ├── 2b
+│   │   │   ├── 13
+│   │   │   ├── 14
+│   │   │   ├── 0d/
+│   │   │   │   ├── 0ca995b2558978f1d2dd4f8621e558183229d1
+│   │   │   │   ├── f06881a5c270cec6f17c884afb28d274b9fe63
+│   │   │   ├── 68/
+│   │   │   │   ├── fd6fb30cba041cb0d766f662c2826a714dcae9
+│   │   │   │   ├── 13500690c145bfe9ed5992662dfdd015d40b4e
+│   │   │   ├── 9b/
+│   │   │   │   ├── 289f167ab9e880ba3f8c8c9c4591f9fbd1266f
+│   │   │   ├── 9e/
+│   │   │   │   ├── 7cd7009aafe89afc0acd46f4b989c4915e6523
+│   │   │   ├── 6a/
+│   │   │   │   ├── da85579679abc2e95bafc3fb4ea98d941c0281
+│   │   │   ├── 3c/
+│   │   │   │   ├── 6922edbffce97eb4f25ace77f5aa034f695031
+│   │   │   ├── 51/
+│   │   │   │   ├── cdb0f1f591fd419b13bd987185a3d77dfdf809
+│   │   │   ├── 0e/
+│   │   │   │   ├── df7e9cc2e3ae330c7f0ac6c0490fa96f2f25fb
+│   │   │   ├── 9d/
+│   │   │   │   ├── aa540db463f4e802b03cddc1443929b7f58b7e
+│   │   │   ├── a4/
+│   │   │   │   ├── 7c6b3dff451016dd165cbd77dbafb6dcbaf04d
+│   │   │   ├── ac/
+│   │   │   │   ├── 8b6c4dab44007c999cab4200a85581f6547d4a
+│   │   │   │   ├── efef8afe2618e4e268f9476802ea76581e603d
+│   │   │   ├── b3/
+│   │   │   │   ├── 4d03b9f56bfdf84f8b4d205ab1bc9d943a6a89
+│   │   │   │   ├── aeb6171942cfd81709f69e4d1698f203f8109b
+│   │   │   ├── df/
+│   │   │   │   ├── 097e80b6f9a4f02d0f372ca5a7eb415f67ccc2
+│   │   │   ├── a5/
+│   │   │   │   ├── d936590afe3320a4a493b7ad377906a9e7b897
+│   │   │   │   ├── 8f0e17e7f1ae32d919ae2060fc784a953f87e7
+│   │   │   ├── bc/
+│   │   │   │   ├── 4700eb581dddfcec1edce6ca4617583db8b755
+│   │   │   ├── d8/
+│   │   │   │   ├── 0e91a34b77beddc007bb3915645aaaf20f8e9b
+│   │   │   ├── f4/
+│   │   │   │   ├── 08276fffd0c9ebd103ce95b95a6d5a111eb56d
+│   │   │   ├── ee/
+│   │   │   │   ├── 7562f41adf37537b4f6767b005c3a84729b4b8
+│   │   │   ├── fc/
+│   │   │   │   ├── 588371bbf8f16ac0a8d0f5fd3fe0798a423da1
+│   │   │   ├── f5/
+│   │   │   │   ├── cfd91ae98d4f50f2b5da8a48247bf0b2b6ecd9
+│   │   │   │   ├── ecdb142b5a258d839bc19a7ff8b46419429225
+│   │   │   ├── e3/
+│   │   │   │   ├── ed06cfc177d8398a4de52e35b5de19556878e1
+│   │   │   ├── e4/
+│   │   │   │   ├── f820aa2ab517fa6b179e1b3352c3d866fc929e
+│   │   │   ├── fe/
+│   │   │   │   ├── 398061ec859f8a4aaa48a36a53823339059bb8
+│   │   │   ├── c8/
+│   │   │   │   ├── 9192f3ece079191a1398f1c0c7f9a32be33b42
+│   │   │   │   ├── 4a8d5c80f161ac359c063f74d69326968ef102
+│   │   │   ├── c1/
+│   │   │   │   ├── 18ef9ee15f15819d107082450c61a0c7848f3c
+│   │   │   ├── 4e/
+│   │   │   │   ├── 885510acb96f94435f06f6793d38fc45fba6ad
+│   │   │   ├── 20/
+│   │   │   │   ├── c5df81d0a787303023af4c48bd20f942c3f267
+│   │   │   ├── pack/
+│   │   │   │   ├── pack-960b0f4c6fbc75f70a13f2f88f881697fa159674.idx
+│   │   │   │   ├── pack-960b0f4c6fbc75f70a13f2f88f881697fa159674.pack
+│   │   │   ├── 29/
+│   │   │   │   ├── 9d8cbf55c423ab4fc1b9b358fadeac1be5a823
+│   │   │   ├── 7c/
+│   │   │   │   ├── eda51435c21d1794f15cba5ddc4682492c2f16
+│   │   │   ├── 42/
+│   │   │   │   ├── 1486aa32a4d9abe7aa6d5c6b35a546c941a8e9
+│   │   │   ├── 89/
+│   │   │   │   ├── 95a64708ef5a9ce67e3810c5ef7393070cbb0a
+│   │   │   │   ├── 849e0d25766a7510640e8c147e28e47f8efb16
+│   │   │   ├── 1f/
+│   │   │   │   ├── e6a37cb1620bd6eb29e81b715d7453dedd58e6
+│   │   │   ├── 74/
+│   │   │   │   ├── 13407efd5307c4020908d27f5d69a1a0fd7126
+│   │   │   ├── 28/
+│   │   │   │   ├── 7b2d89a30a2dc8136ddac3e8516065e7eb0581
+│   │   │   ├── 7b/
+│   │   │   │   ├── 26a3dadc488dc470a21706220203c12cdf1fd1
+│   │   │   ├── 8f/
+│   │   │   │   ├── c0c195113e1375f0d0d452c5ffd997723a0f16
+│   │   │   ├── 4d/
+│   │   │   │   ├── 60417dccfd03cffc080b4d31778555c7abef64
+│   │   │   ├── 75/
+│   │   │   │   ├── 195605007e3876ec6ee55ca481ec81171170a6
+│   │   │   ├── 81/
+│   │   │   │   ├── a16d0258f64ef8c7c2e51fbc4518dbc899dc2c
+│   │   │   │   ├── bf990d614b453b178afd9c7a2185b14b78f7ce
+│   │   │   ├── 72/
+│   │   │   │   ├── d69b7dd42633c6a585c869c78c029943f24f10
+│   │   │   ├── 44/
+│   │   │   │   ├── 84971b725703ea3933032d7305b834f387a31b
+│   │   │   ├── 88/
+│   │   │   │   ├── 345e802038fede100500eed96f359bdc24d6a4
+│   │   │   │   ├── 0d11fe06c4345d93cb0a12265307e17a1c0a39
+│   │   │   ├── 07/
+│   │   │   │   ├── d3af3118a135c6cf4a386686fd628c1420a59c
+│   │   │   ├── 38/
+│   │   │   │   ├── e5e1c53c7839634cfc40b75a6e17d861d4ca47
+│   │   │   ├── 9a/
+│   │   │   │   ├── 5a4a60395e0244ed24da799c8fd2dcf084d22e
+│   │   │   ├── 09/
+│   │   │   │   ├── 64626b3617e4bbe3c94085421040e3827c11c9
+│   │   │   │   ├── dce1b864cb7ba16101faa8181bb4e3bf310ac9
+│   │   │   ├── 31/
+│   │   │   │   ├── 89ed4035bd5f2b8061536f6fe79c5a3707a044
+│   │   │   ├── info/
+│   │   │   ├── 91/
+│   │   │   │   ├── ad64052bb095d159edf625566ff7e401d8f3e6
+│   │   │   ├── 54/
+│   │   │   │   ├── 002939ec6ed1e6079995fcaa2096efe470a32c
+│   │   │   ├── 53/
+│   │   │   │   ├── 24ff8ef050b861fb7f92d144e6f640f3bc8348
+│   │   │   │   ├── cf41d993c84b90514e2d2ca4c4382e8bafc4af
+│   │   │   ├── 5e/
+│   │   │   │   ├── 80f040d92070562ea789aa4b70c04259636863
+│   │   │   ├── 37/
+│   │   │   │   ├── f63fe486944a9f4fe550697dcfc38ff5e66e36
+│   │   │   ├── 63/
+│   │   │   │   ├── c3cfcec3a21619411644ce28d2abd57847580f
+│   │   │   ├── 64/
+│   │   │   │   ├── 4e1afffad265c1924bd5ebb2e18029706a8f31
+│   │   │   ├── bf/
+│   │   │   │   ├── 1b8bce2fa0f3dbf8b8db0d1bdbbefb121a51f2
+│   │   │   │   ├── 473731d669dc128d31baa52d5c28a1d96d36c2
+│   │   │   ├── b1/
+│   │   │   │   ├── ab01cfd4d21b699a43bd5f630ac23e5bb6a261
+│   │   │   ├── a9/
+│   │   │   │   ├── c6a10596c5d94899687d595dd9fd2eded72c25
+│   │   │   ├── d5/
+│   │   │   │   ├── 4a29798106d30f22f3d276573c8802264b05eb
+│   │   │   ├── a8/
+│   │   │   │   ├── f63951172a64dab9ab7d03373ef9724d150c9a
+│   │   │   ├── b0/
+│   │   │   │   ├── b6a217b2f60664b7fd05a6722250bf6e7f49e3
+│   │   │   ├── c3/
+│   │   │   │   ├── b6e149316456487f8b134b56dcf2d0740293c1
+│   │   │   ├── e1/
+│   │   │   │   ├── 70aae195bb5f6531b7fcbbbe74fc9fdad0a78a
+│   │   │   ├── cd/
+│   │   │   │   ├── cde33d1f5096f8347a5d546eaf59497aeed55a
+│   │   │   ├── f0/
+│   │   │   │   ├── 84cf2cef631058783e513815371a55b4eadd8f
+│   │   │   ├── e8/
+│   │   │   │   ├── 9fac63ba6298655833576426a48318b7298f0b
+│   │   │   ├── fa/
+│   │   │   │   ├── d610bfb6ab1ea951f66be8d34dbb93bc49ceca
+│   │   │   ├── ff/
+│   │   │   │   ├── 2190d13ee12cd31f013995b8f6a24a49ad2747
+│   │   │   ├── e9/
+│   │   │   │   ├── f7450d4b819ae6aa66746118375657e362c8b2
+│   │   │   ├── ce/
+│   │   │   │   ├── 451c5aacb55e924f364d6b13f3b906084ffd75
+│   │   │   ├── 41/
+│   │   │   │   ├── 8f3c08212de123715de01475cdf24db3357f78
+│   │   │   │   ├── 4586cbda18f5c3f31f707e496c6311386e3685
+│   │   │   ├── 83/
+│   │   │   │   ├── 77c572d4c021aa14ed28d2c35add5c0b81d5b5
+│   │   │   ├── 1b/
+│   │   │   │   ├── 6ce7fc300b05e0f022edc284375928829a3dfd
+│   │   │   ├── 48/
+│   │   │   │   ├── c6cd81a44e00e6a62f8459face923d2b4e0249
+│   │   │   ├── 4f/
+│   │   │   │   ├── 9e18d82d5c1de47b9f0365ec4e5b549cabcd0e
+│   │   │   ├── 12/
+│   │   │   │   ├── b9603c4d633ff6ec281f99e12f3b8655183dd3
+│   │   │   ├── 85/
+│   │   │   │   ├── ea366145e1a609daed0c5d25cdead4a80d8cb4
+│   │   │   │   ├── 33fa88c2b00ee949eabb2ffc0bc259c30b840f
+│   │   │   ├── 1d/
+│   │   │   │   ├── c47c6e6bf2fae8a06cf37e18850634e8829d6d
+│   │   │   ├── 82/
+│   │   │   │   ├── 17dc43883142668debdb6dea96002620140354
+│   │   │   ├── 40/
+│   │   │   │   ├── 8556cdd0f2b8f5bfc4ff5b8ceaf0d87603dd2d
+│   │   │   ├── 2b/
+│   │   │   │   ├── 077a1d0f80954ff225068d910fc458f5377f01
+│   │   │   ├── 13/
+│   │   │   │   ├── 240f0c69dcef652ef9f1c734dc56ed7ae630b8
+│   │   │   ├── 14/
+│   │   │   │   ├── f808ebec5dfdb6b17e5e394a0fc12ced0456a6
+│   │   ├── info/
+│   │   │   ├── exclude
+│   │   ├── logs/
+│   │   │   ├── HEAD
+│   │   │   ├── refs
+│   │   │   ├── refs/
+│   │   │   │   ├── heads
+│   │   │   │   ├── remotes
+│   │   │   │   ├── heads/
+│   │   │   │   │   ├── main
+│   │   │   │   ├── remotes/
+│   │   │   │   │   ├── origin
+│   │   │   │   │   ├── origin/
+│   │   │   │   │   │   ├── HEAD
+│   │   │   │   │   │   ├── main
+│   │   ├── hooks/
+│   │   │   ├── commit-msg.sample
+│   │   │   ├── pre-rebase.sample
+│   │   │   ├── pre-commit.sample
+│   │   │   ├── applypatch-msg.sample
+│   │   │   ├── fsmonitor-watchman.sample
+│   │   │   ├── pre-receive.sample
+│   │   │   ├── prepare-commit-msg.sample
+│   │   │   ├── post-update.sample
+│   │   │   ├── pre-merge-commit.sample
+│   │   │   ├── pre-applypatch.sample
+│   │   │   ├── pre-push.sample
+│   │   │   ├── update.sample
+│   │   │   ├── push-to-checkout.sample
+│   │   ├── refs/
+│   │   │   ├── heads
+│   │   │   ├── tags
+│   │   │   ├── remotes
+│   │   │   ├── heads/
+│   │   │   │   ├── main
+│   │   │   ├── tags/
+│   │   │   ├── remotes/
+│   │   │   │   ├── origin
+│   │   │   │   ├── origin/
+│   │   │   │   │   ├── HEAD
+│   │   │   │   │   ├── main
+│   │   ├── branches/

@@ -1,0 +1,26 @@
+/* Slider background */
+.rc-slider {
+    background-color: #ffffff; /* Slider background color */
+    border: 1px solid #1C4E80; /* Slider border color */
+    height: 10px; /* Slider height */
+    border-radius: 5px; /* Slider border radius */
+}
+
+/* Handle style */
+.rc-slider-handle {
+    background-color: #1C4E80; /* Handle color */
+    border: 1px solid #1C4E80; /* Handle border color */
+    width: 20px; /* Handle width */
+    height: 20px; /* Handle height */
+    margin-top: -6px; /* Adjust handle position to center it */
+    border-radius: 50%; /* Handle border radius */
+}
+
+/* Mark text style */
+.rc-slider-mark-text {
+    color: #1C4E80; /* Mark text color */
+    font-size: 18px; /* Mark text font size */
+    font-family: 'Arial', sans-serif; /* Mark text font family */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
