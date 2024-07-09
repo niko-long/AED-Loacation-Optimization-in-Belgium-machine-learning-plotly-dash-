@@ -44,7 +44,7 @@ There are four pages in our web application:
 ## Project Main Page
 The main page is a thumbnail of all the features of our app, with four sections in total. In the upper left section is the introduction of our project. In the upper right, lower left and upper right sections are our three interactive pages, namely "AED Optimization for Better Survival", "Mortality Rate Analysis by Different Cities and Month", and "Mortality Rate Analysis by Different Years and Cities".
 By clicking the picture in the three section, we can directly go the interactive page. To go back the main page, we set a hamburger button in the top left corner. By clicking the hamburger button, we can choose any page out of the four pages you want to go.
-![Project Main Page](Figures/mainpage.png)
+![Project Main Page](pages/assets/mainpage.png)
 
 ## AED Optimization for Better Survival
 In this page, we have four check boxes, enabling users to display "Existing AED Locations", "Patients", "Hospitals", and "New AED Placement", as shown in Figure \ref{fig:page1}. By click "Existing AED Locations", "Patients", and "Hospitals" boxes, users can see existing AED locations, patients, and hospitals information. Patients with green logo represent patients who survived at T3, while patients with red logo represent patients who died at T3. By clicking "New AED Placement" box, users can see current survival rate of existing patients. At the same time, users can interactively add new AED on the map by clicking on the map, the Latitude and Longitude information of the new AED location shows in the text box at right immediately, and the survival rates of existing patients update accordingly.
