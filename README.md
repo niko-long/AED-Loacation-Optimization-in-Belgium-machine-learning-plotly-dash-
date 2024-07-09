@@ -58,7 +58,7 @@ At this page, we show the mortality rate of three different cities at different 
 
 ## Mortality Rate Analysis by Different Years and Cities
 In this page, we show the trend of mortality rate of chosen city in a chosen year. The user can use the drop down to choose interested years and cities to see the mortality rate trend as shown below.
-![Mortality Rate Analysis by Different Years and Cities](Figures/page3.png)
+![Mortality Rate Analysis by Different Years and Cities](pages/assets/webpage3.png)
 
 
 
