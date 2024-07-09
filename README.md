@@ -50,11 +50,11 @@ By clicking the picture in the three section, we can directly go the interactive
 In this page, we have four check boxes, enabling users to display "Existing AED Locations", "Patients", "Hospitals", and "New AED Placement", as shown in Figure \ref{fig:page1}. By click "Existing AED Locations", "Patients", and "Hospitals" boxes, users can see existing AED locations, patients, and hospitals information. Patients with green logo represent patients who survived at T3, while patients with red logo represent patients who died at T3. By clicking "New AED Placement" box, users can see current survival rate of existing patients. At the same time, users can interactively add new AED on the map by clicking on the map, the Latitude and Longitude information of the new AED location shows in the text box at right immediately, and the survival rates of existing patients update accordingly.
 
 This part of the implementation relies on the previously stored pipeline, when the user clicks on a new AED location, the new latitude and longitude are automatically read and stored in a list called \text{stored\_coordinates}. The function that updates the survival rate automatically reads all the values within that list and passes them into the stored pipeline model to calculate the new survival rate result, which is finally displayed on the map.
-![AED Optimization for Better Survival](Figures/page1.png)
+![AED Optimization for Better Survival](pages/assets/webpage1.png)
 
 ## Mortality Rate Analysis Across Cities by Different Month
 At this page, we show the mortality rate of three different cities at different period, and enable users to use slide bar to choose their interested months to see the mortality rate of SCA patients at three cities in that month as shown in Figure \ref{fig:page2}.
-![Mortality Rate Analysis by Different Cities and Month](Figures/page2.png)
+![Mortality Rate Analysis by Different Cities and Month](pages/assets/webpage2.png)
 
 ## Mortality Rate Analysis by Different Years and Cities
 In this page, we show the trend of mortality rate of chosen city in a chosen year. The user can use the drop down to choose interested years and cities to see the mortality rate trend as shown below.
