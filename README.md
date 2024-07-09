@@ -2,12 +2,12 @@
 ## Introduction
 In this project, a machine learning model was built to predict survival rates for out-of-hospital cardiac arrest using intervention, hospital and AED information. Additionally, a web application was developed via Dash and Plotly to visualize the survival information with relation to locations of AEDs and hospitals, and to enable users to interactively add new AEDs to explore AED optimization possibilities.
 # ——————————————————————
-# Project Background
+### Project Background
 Seconds are critical to survivability of out-hospital Sudden Cardiac Arrest (SCA) patients since SCA typically causes death if proper care is not administered rapidly. Early defibrillation is key in the ‘Chain of Survival’ for treating these patients. This care can be provided by Automated External Defibrillators (AEDs), medical devices designed to provide cardiac defibrillation in out-of-hospital environments by bystanders with limited or no training.
 
 Improved response time, or decreased time-to-shock, using public-access AEDs has shown improved survival rates. Rapid response times are achieved by making AEDs publicly available for bystander use. Public-access AED programs empower bystanders to provide early cardiac defibrillation providing rapid and open access to AEDs.
 
-# Project Objectives
+### Project Objectives
 In this project, we aim to build a machine learning model to predict survival rates for out-of-hospital cardiac arrest using intervention, hospital, and AED information. Using Dash and Plotly, we also aim to develop a web application to visualize the survival information with relation to locations of AEDs and hospitals, and enable users to interactively add new AED for survival chance optimization.
 
 # Pre-processing
